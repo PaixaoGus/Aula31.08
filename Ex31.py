@@ -1,10 +1,10 @@
-funcionarios = {
-    "nome": "Maria",
-    "idade": 29,
-    "setor": "financeiro"
-}
+funcionario = {}
 
-print("Dados do funcionario:")
-print("Nome:", funcionarios["nome"])
-print("Idade:", funcionarios["idade"])
-print("Setor:", funcionarios["setor"])
+funcionario["nome"] = input("Informe o nome do funcionario: ")
+funcionario["idade"] = int(input("Informe a idade do funcionario: "))
+funcionario["setor"] = input("Informe o setor do funcionario:")
+
+print("\nDados do funcionario:")
+print("Nome:", funcionario["nome"])
+print("Idade:", funcionario["idade"])
+print("Setor:", funcionario["setor"])
