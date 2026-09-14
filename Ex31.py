@@ -5,6 +5,6 @@ funcionarios = {
 }
 
 print("Dados do funcionario:")
-print("Nome:", funcionarios[nome])
-print("Idade:", funcionarios[idade])
-print("Setor:", funcionarios[setor])
+print("Nome:", funcionarios["nome"])
+print("Idade:", funcionarios["idade"])
+print("Setor:", funcionarios["setor"])
